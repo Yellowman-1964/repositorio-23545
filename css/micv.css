@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    font-family: 'Ubuntu';
+}
+
+.headerContainer {
+    background: rgb(94, 94, 50);
+}
+.inline {
+    display: inline-block;
+}
+.headerTitle {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    width: 20vw;
+    text-transform: uppercase;
+    color: white;
+}
+.headerImg {
+    /* background: red; */
+    width: 25vw;
+    height: 20vh;
+    background-image: url(../css/imgs/micv.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.avatar {
+    border-radius: 50%;
+    width: 10vw;/*medida relativa al viewport*/
+    /* height: 10vh; */
+}
+
+.informacion {
+    background: red;    
+}
+
+.informacion h2{
+    text-align: left;
+}
+.informacion ul{
+    list-style: none;
+}

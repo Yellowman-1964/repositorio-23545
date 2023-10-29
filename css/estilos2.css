@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/*
+
+Esta es una regla*/
+/*Es un Selector  del tipo Etiqueta */
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    /* puedo cambiar el weigth de esa letra */
+    font-weight: 400;
+    font-style: italic;
+    font-size: 3em;
+    color: blue;
+}
+
+/* configurar una regla */
+/* Selector de Clase*/
+.mainSection {
+    font: size 20px;
+    /* esta es una medida absoluta*/
+}
+.mainSection .mainDiv {
+    font-size: 0.5em;
+}
+.mainSection p {
+    color: red;
+    /* este Hereda el Tamaño de la fuente del .mainsection (20px */
+    /*Medidas Relativas */
+    font-size: 2rem;
+    /* rem =>16px x2 =32px */
+    /* em  =>20px  */
+
+}
+
+p {
+    color: green;
+}

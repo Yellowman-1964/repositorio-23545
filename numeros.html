@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Generador de números aleatorios</title>
+</head>
+<body>
+  <h1>Generador de números aleatorios</h1>
+
+  <script>
+    function generarNumeroAleatorio() {
+      // Generamos un número aleatorio entre 0 y 5
+      var numeroAleatorio = Math.floor(Math.random() * 6);
+
+      // Devolvemos el número aleatorio
+      return numeroAleatorio + 1;
+    }
+
+    // Generamos un número aleatorio y lo mostramos
+    var numeroAleatorio = generarNumeroAleatorio();
+    document.getElementById("numeroAleatorio").textContent = numeroAleatorio;
+  </script>
+
+  <div id="numeroAleatorio"></div>
+</body>
+</html>

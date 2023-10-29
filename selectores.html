@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores CSS</title>
+    <link rel="stylesheet" href="./css/selectores.css">    
+
+    <style>
+        @import url(css/selectores-dark.css);
+        /* @import url(css/selectores-light.css); */
+        .btn {
+            width: var(--btn-base-width);
+            height: var(--btn-base-heigth);
+            font-size: 1em;
+            background: var(--primary-color);
+            color: var(--white);
+            font-family: var(--font-family-base);
+            min-height: 15vh;
+            border-radius: 10px;
+        }
+        .btn:hover {
+            font-weight: bolder;
+        }
+
+        /*btn-large*/
+        .btn-large {
+            width: 25vw;
+        }
+        .btn-small {
+            width: 10vw;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn">
+        Click Me
+    </button>
+    <button class="btn btn-large">
+        Click Me Again!
+    </button>
+    <button class="btn btn-small">
+        Click!
+    </button>
+</body>
+</html>

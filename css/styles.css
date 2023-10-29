@@ -1,0 +1,41 @@
+/* esto es un comentario en ccs
+igual que en Java
+
+Una Regla de CSS esta dada por un Nomre { key:value;key2:value }
+
+
+
+
+*/
+
+/* Seletor de ETIQUETAS CSS para el Tag de H1  */
+h1 {
+    color:red;
+    display: inline;
+}
+
+/* Este selector Afecta al Titulos H3 Selector H3 */
+h3 {
+    color:blue;
+}
+/* Esto afecta a todos los H4*/
+h4 {
+    color:green;
+    }
+/* Selector unico Creamos otra regla para uno determinado */
+/*------Regla para id="capitanes" -  Selector por id*/
+#capitanes {
+    color:blueviolet;
+}
+/* REGLA DE ESPECIFICIDAD:
+ETIQUETA ES < clase < ID */
+/* !important le gana a id > clase > etiqueta */
+
+/*------------*/
+/* Selector por, Clases */
+.textoFuerte {
+    font-size: 35px; /* em  % Px   1em=16px  2em=32px*/
+    color:brown;
+}
+
+/* 

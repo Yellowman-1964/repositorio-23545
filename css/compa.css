@@ -1,0 +1,19 @@
+/**root {
+    font-family: 'Ubuntu', sans-serif;
+    
+}**/
+
+.hdcont {
+    background: rgb(196, 192, 80);
+    height: 25%;
+    border-width: 25px solid black;
+}
+
+.ixAvatar {
+    width: 25vw;
+    border-radius: 80px 10px;
+}
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    size: 15em;    
+}
